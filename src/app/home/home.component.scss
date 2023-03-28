@@ -1,6 +1,6 @@
 header {
   background: url(../../assets/home-img.png);
-  height: 110vh;
+  height: 130vh;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -9,7 +9,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 3rem 2rem;
+    padding: 3rem 10rem;
     .h1 {
       font-size: 3rem;
       color: white;
@@ -49,6 +49,59 @@ header {
         border-radius: 50%;
         background: #e58411;
       }
+    }
+  }
+
+  section{
+    margin-top: 2.5rem;
+    text-align: center;
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    .home-h1{
+color: white;
+font-size: 8rem;
+    }
+    .home-h4{
+color: white;
+font-size: 2.4rem;
+font-weight: 200;
+    }
+
+    .search-btn{
+border: 1.8px solid white;
+width: 28rem;
+display: flex;
+
+height: 5rem;
+position: relative;
+border-radius: 3rem;
+      .input{
+background: transparent;
+border: none;
+text-align: center;
+color: white;
+outline: none;
+       
+      }
+      ::placeholder{
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 200;
+      }
+      .search-img{
+        position: absolute;
+        width:4rem;
+        padding: 1.2rem;
+  border-radius: 2rem;
+     background: #E58411;
+
+        right: 0.5rem;
+        top: 0.4rem;
+                }
+
     }
   }
 }

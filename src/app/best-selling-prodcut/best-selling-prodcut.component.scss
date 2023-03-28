@@ -1,0 +1,105 @@
+section {
+  background: #F7F7F7;
+
+
+  .fluid-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    .product-h1 {
+      font-size: 4.5rem;
+      font-weight: 600;
+    }
+
+    .product-ul {
+      display: flex;
+      width: 35rem;
+      align-items: center;
+
+      height: 5.5rem;
+      border-radius: 6rem;
+      background: #eeeeeecb;
+      .product-ul-a {
+        width: 100%;
+
+        text-decoration: none;
+        padding: 1rem;
+        color: #1e1e1e;
+        font-size: 1.7rem;
+      }
+    }
+  }
+
+  .fluid-container-2 {
+    padding: 10rem 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    .content-card {
+        margin: 3rem;
+      width: 27rem;
+      height: 50rem;
+    
+      .img-card {
+ background: #FAFAFA;
+    border-radius: 2rem 2rem 0 0;
+        height: 25rem;
+        padding: 1rem;
+        display: flex;
+        position: relative;
+        .img {
+            right: 2.5rem;
+            top: -4.5rem;
+            position: absolute;
+        }
+      }
+      .card-content {
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        border-radius: 0 0 2rem 2rem;
+        background: #FFFFFF;
+        .h4-card {
+          font-size: 1.8rem;
+          font-weight: 400;
+        }
+
+        .h1-card {
+          font-size: 2.2rem;
+          font-weight: 500;
+        }
+
+        .stars {
+          .star {
+            font-size: 1.9rem;
+            color: #f6b76f;
+          }
+        }
+
+        .price-details {
+            margin-top: 3rem;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          .price-h2 {
+            display: flex;
+            gap: 0.4rem;
+            font-size: 2.1rem;
+          }
+
+
+          .plus {
+            padding: 0.8rem;
+            background: #0D1B39;
+            color: white;
+            font-size: 2.8rem;
+            border-radius: 5rem;
+          }
+        }
+      }
+    }
+  }
+}
