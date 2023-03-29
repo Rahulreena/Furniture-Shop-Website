@@ -1,13 +1,15 @@
 section {
   background: #F7F7F7;
 
-
-  .fluid-container {
+  .container{
+padding: 5rem 0;
+      .fluid-container {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     gap: 3rem;
+      
     .product-h1 {
       font-size: 4.5rem;
       font-weight: 600;
@@ -33,12 +35,12 @@ section {
   }
 
   .fluid-container-2 {
-    padding: 10rem 1rem;
+  padding-top: 10rem;
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 3rem;
     .content-card {
-        margin: 3rem;
+      
       width: 27rem;
       height: 50rem;
     
@@ -102,4 +104,18 @@ section {
       }
     }
   }
+
+  .view-btn{
+    text-decoration: none;
+    color: #E58411;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+  }
+
+  }
+
+
 }

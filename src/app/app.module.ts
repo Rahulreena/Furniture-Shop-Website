@@ -6,13 +6,19 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { ContentDetailsComponent } from './content-details/content-details.component';
 import { BestSellingProdcutComponent } from './best-selling-prodcut/best-selling-prodcut.component';
+import { CardContentComponent } from './card-content/card-content.component';
+import { FlexCardComponent } from './flex-card/flex-card.component';
+import { ReviewCardComponent } from './review-card/review-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ContentDetailsComponent,
-    BestSellingProdcutComponent
+    BestSellingProdcutComponent,
+    CardContentComponent,
+    FlexCardComponent,
+    ReviewCardComponent
   ],
   imports: [
     BrowserModule,
